@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodCon - Home</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.html" class="logo">FoodCon</a> <!-- Logo on top left -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1>Welcome to FoodCon</h1>
+                <p>Your destination for discovering the best culinary creations, tips, and recipes.</p>
+            </div>
+        </section>
+
+        <h2>Featured Blogs</h2>
+        <section class="featured-blogs">
+            <article class="blog-post">
+                <img src="images/recipe_perfect_pasta.jpg" alt="Perfect Pasta">
+                <h3><a href="blog1.html">The Secrets to Perfect Pasta Every Time</a></h3>
+                <p>Posted on September 2, 2024 by Chef Maria</p>
+                <p>Mastering the art of pasta is easier than you think. Discover the secrets to creating perfect pasta dishes every time...</p>
+                <button class="like-btn" onclick="likePost(this)">Like</button> <span class="like-count">0 Likes</span>
+                <a href="blog1.html">Read More</a>
+            </article>
+
+            <article class="blog-post">
+                <img src="images/ultimate_breakfast.jpg" alt="Ultimate Breakfast">
+                <h3><a href="blog2.html">Crafting the Ultimate Breakfast: Tips and Recipes</a></h3>
+                <p>Posted on September 1, 2024 by Chef Andre</p>
+                <p>Start your day the right way with these tips and recipes for the ultimate breakfast experience...</p>
+                <button class="like-btn" onclick="likePost(this)">Like</button> <span class="like-count">0 Likes</span>
+                <a href="blog2.html">Read More</a>
+            </article>
+
+            <article class="blog-post">
+                <img src="images/vegetarian_delights.jpg" alt="Vegetarian Delights">
+                <h3><a href="blog3.html">Vegetarian Delights: Healthy and Delicious</a></h3>
+                <p>Posted on August 28, 2024 by Chef Nina</p>
+                <p>Explore a world of flavor with these vegetarian dishes that are both healthy and delicious...</p>
+                <button class="like-btn" onclick="likePost(this)">Like</button> <span class="like-count">0 Likes</span>
+                <a href="blog3.html">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FoodCon. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>

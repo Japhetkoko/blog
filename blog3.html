@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vegetarian Delights: Healthy and Delicious - FoodCon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <a href="index.html" class="logo">FoodCon</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+        <article>
+            <img src="images/vegetarian_delights.jpg" alt="Vegetarian Delights" style="width:20%;">
+            <h1>Vegetarian Delights: Healthy and Delicious</h1>
+            <p>Posted on August 28, 2024 by Chef Nina</p>
+            <p>Eating vegetarian doesn't mean sacrificing flavor. In this blog post, we'll share a variety of vegetarian recipes that are not only healthy but also delicious. From hearty salads to comforting soups, these dishes are sure to satisfy.</p>
+
+            <h2>1. Mediterranean Quinoa Salad</h2>
+            <p>This refreshing salad combines quinoa with fresh vegetables, feta cheese, and a zesty lemon dressing. It's perfect for a light lunch or as a side dish.</p>
+
+            <h2>2. Creamy Butternut Squash Soup</h2>
+            <p>This creamy soup is rich in flavor and perfect for colder days. Roasted butternut squash, garlic, and a hint of nutmeg make this dish a crowd-pleaser.</p>
+
+            <h2>3. Stuffed Bell Peppers</h2>
+            <p>Stuffed bell peppers are a versatile dish that can be filled with a variety of ingredients. This recipe uses a mix of rice, beans, and vegetables for a hearty, satisfying meal.</p>
+
+            <button class="like-btn" onclick="likePost(this)">Like</button> <span class="like-count">0 Likes</span>
+
+            <section class="comments">
+                <h2>Comments</h2>
+                <form id="commentForm">
+                    <textarea id="commentText" placeholder="Add your comment..." rows="4"></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+
+                <div class="comment-section" id="commentSection">
+                    <!-- Comments will be added dynamically here -->
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 FoodCon. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="scripts.js"></script>
+</body>
+</html>

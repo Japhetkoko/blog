@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secrets to Perfect Pasta Every Time - FoodCon</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">FoodCon</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <img src="images/recipe_perfect_pasta.jpg" alt="Perfect Pasta" style="width:20%;">
+            <h1>The Secrets to Perfect Pasta Every Time</h1>
+            <p>Posted on September 2, 2024 by Chef Maria</p>
+            <p>Pasta is a staple in many households, but getting it just right can be a challenge. In this blog post, we'll explore the secrets to making perfect pasta every time, from selecting the right ingredients to mastering the cooking techniques.</p>
+
+            <h2>1. Choose the Right Pasta</h2>
+            <p>The first step to perfect pasta is choosing the right type of pasta for your dish. Whether it's spaghetti, fettuccine, or penne, each type of pasta works best with specific sauces and ingredients.</p>
+
+            <h2>2. Use Plenty of Water</h2>
+            <p>When cooking pasta, use a large pot with plenty of water. This helps the pasta cook evenly and prevents it from sticking together. Adding a generous amount of salt to the water is also key for flavor.</p>
+
+            <h2>3. Don't Overcook It</h2>
+            <p>Perfect pasta should be cooked al dente, meaning it should be firm to the bite. Check the pasta a minute or two before the cooking time suggested on the package to ensure it's not overcooked.</p>
+
+            <h2>4. Save Some Pasta Water</h2>
+            <p>Before draining the pasta, save a cup of the cooking water. The starchy water is great for thinning out sauces and helps the sauce cling to the pasta better.</p>
+
+            <button class="like-btn" onclick="likePost(this)">Like</button> <span class="like-count">0 Likes</span>
+
+            <section class="comments">
+                <h2>Comments</h2>
+                <form id="commentForm">
+                    <textarea id="commentText" placeholder="Add your comment..." rows="4"></textarea>
+                    <button type="submit">Post Comment</button>
+                </form>
+
+                <div class="comment-section" id="commentSection">
+                    <!-- Comments will be added dynamically here -->
+                </div>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 FoodCon. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
